@@ -40,7 +40,7 @@ ol,ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 var(--padding_left_right);
+    padding-right: var(--padding_left_right);
     position: relative;
     
 
@@ -66,9 +66,6 @@ ol,ul{
     height: calc(100vh - var(--altura_header));
 }
 
-.logo {
-    color: #eee;
-}
 
 .bi-list {
     color: #eee;
