@@ -163,12 +163,6 @@ h1{
     padding-left: 70px;
     flex: auto;
 }
-.logo {
-    width:  70%;
-    height: 120px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
 
 /*aqui comienza el css de boton*/
 .info{
