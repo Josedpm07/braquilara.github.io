@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #eedeed;
+    background-color: #ffdaf7;
     background-position: center top;
     background-size: cover;
     background-repeat: initial;
@@ -21,12 +21,17 @@ body{
 
     
 }
-
-.logo {
-    width:  70%;
+.box-logo{
+    background-color: #fff;
+    border-bottom-right-radius: 60px;
     height: 120px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    padding: 0;
+}
+.logo {
+    width:  100%;
+    height: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 a{
