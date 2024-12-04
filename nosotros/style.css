@@ -444,20 +444,27 @@ h2{
     margin-bottom: 15px;
     transition: all .3s ease;
 }
-.num-links a:hover{
-    color: #fff;
-    padding-left: 6px;
+.direc-links{
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
 }
 @media(max-width:948px){
 
     .footer-row{
         width: 100%;
-        text-align: center;
         display: flex;
+        text-align: center;
     }
     .footer-links{
         width: 100%;
         margin-bottom: 30px;
+    }
+    .footer-links ul li a{
+        text-align: center;
     }
 }
 .footer-derechos{
