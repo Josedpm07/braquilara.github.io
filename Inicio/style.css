@@ -93,9 +93,12 @@ ol,ul{
 
 .logo {
     width:  100%;
-    height: 120px;
-    padding-left: 5px;
-    padding-right: 5px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    padding-right: 15px;
+    border-bottom-right-radius: 60px;
 }
 
 .bi-list {
@@ -399,7 +402,6 @@ p{
     width: 40px;
     background-color: #24262b77;
     margin: 0 10px 10px 0;
-    text-align: center;
     line-height: 40px;
     border-radius: 50%;
     color: #fff;
@@ -421,16 +423,27 @@ p{
     color: #fff;
     padding-left: 6px;
 }
+.direc-links{
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
 @media(max-width:948px){
 
     .footer-row{
         width: 100%;
-        text-align: center;
         display: flex;
+        text-align: center;
     }
     .footer-links{
         width: 100%;
         margin-bottom: 30px;
+    }
+    .footer-links ul li a{
+        text-align: center;
     }
 }
 .footer-derechos{
